@@ -1,0 +1,98 @@
+theme = "Dot"
+
+baseURL = "https://pictoprivacy.org/"
+languageCode = "en-us"
+title = "Pictoprivacy"
+copyright = "© {year} Topre Group"
+[params]
+    ## Homepage
+    title = "Pictoprivacy"
+    titleSeparator = "-"
+    titleAddition = "Modern Privacy Framework"
+    description = "PicToPrivacy is a modern framework that allows web developers to easily give users more privacy options."
+    # logo is for all page
+    logo = ""
+    # logo white is for homepage logo, you can use colorful logo too...
+    logo_white = ""
+    # when logo is empty, it will shown your site title
+
+    # OpenGraph / Twitter Card metadata
+    author = "TopreGroup"
+    image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
+
+    # customize color
+    primary_color = "#fab39f"
+    body_color = "#f9f9f9"
+    text_color = "#636363"
+    text_color_dark = "#242738"
+    white_color = "#ffffff"
+    light_color = "#f8f9fa"
+    # font family
+    font_family = "lato" # Choose font family from : https://fonts.google.com/
+    ############################## social links ##############################
+
+[[params.social]]
+icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
+name = "Twitter"
+link = "#"
+
+[[params.social]]
+icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
+name = "Github"
+link = "https://github.com/topregroup/pictoprivacy"
+
+[[params.social]]
+icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
+name = "Linkedin"
+link = "#"
+
+################################ English Language ######################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+weight = 1
+copyright = "PicToPrivacy - Open Source Privacy Framework by Topre Group"
+
+# banner
+[Languages.en.params.banner]
+title = "Modern Privacy Framework"
+subtitle = "PicToPrivacy is a modern framework that allows web developers to easily give users more privacy options."
+bg_image = "images/banner.jpg"
+placeholder = "Pictograms and code coming soon..."
+
+# call to action
+[Languages.en.params.cta]
+enable = true
+title = "View our code"
+content = "Being Open-Source and free, you can view what we're working on right on Github."
+# call to action button
+[Languages.en.params.cta.button]
+enable = true
+label = "Github"
+link = "https://github.com/topregroup/pictoprivacy"
+
+
+################## english navigation #################
+[[Languages.en.menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+
+# Dropdown menu
+[[Languages.en.menu.main]]
+weight = 2
+name = "docs"
+hasChildren = true
+
+  [[Languages.en.menu.main]]
+  parent = "docs"
+  name = "Installation"
+  url = "#"
+  weight = 1
+
+  [[Languages.en.menu.main]]
+  parent = "docs"
+  name = "Features"
+  url = "#"
+  weight = 2
