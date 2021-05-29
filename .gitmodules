@@ -1,3 +1,7 @@
 [submodule "themes/dot"]
 	path = themes/dot
 	url = git@github.com:themefisher/dot-hugo-documentation-theme.git
+[submodule "public"]
+	path = public
+	url = git@github.com:topregroup/pictoprivacylanding.git
+	branch = master
