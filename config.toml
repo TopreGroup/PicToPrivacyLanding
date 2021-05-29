@@ -1,4 +1,4 @@
-theme = "Dot"
+theme = "dot"
 
 baseURL = "https://pictoprivacy.org/"
 languageCode = "en-us"
